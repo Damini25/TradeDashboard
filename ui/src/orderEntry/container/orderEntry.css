@@ -1,0 +1,8 @@
+.parent-div{
+    display:flex;
+    flex-direction: row;
+    border:2px solid black;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}

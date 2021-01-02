@@ -1,0 +1,101 @@
+.create-game{
+    display: flex;
+    justify-content: center;
+    border: 1px solid beige;
+    /* width: 54%; */
+    /* margin-left: 7%; */
+    /* margin-right: 7%; */
+    margin: 0 7% 0 7%;
+    margin-top: 2%;
+    padding: 3% 5% 2% 5%;
+   // background-color: #eee;
+
+    .sub-div{
+        width:50%;
+        // text-align: center;
+    }
+    h3{
+        text-align: center;
+        margin: 0;
+    }
+    p{
+        margin-top: 1px;
+        font-size: 14px;
+        text-align: center;
+        height: 14%;
+    }
+}
+
+.label-input-div {
+    margin-bottom: 4%;
+    display: flex;
+    label{
+        width:36%;
+        max-width: 36%;
+    }
+    input , select{
+        width: 35%;
+    }
+    .react-datepicker__input-container input {
+        width: 100%;
+    }
+    .transaction-radio-div{
+        display: flex;
+        margin-right: 8%;
+    }
+}
+.playback-freq-div{
+    display: none;
+}
+.game-interval-div{
+    display: none;
+}
+.late-entry-div{
+        width:30%;
+}
+.radiobtn-div{
+    display: flex;
+    label{
+        margin-left: 10%;
+    }
+    input{
+        width: 25px;
+    }
+}
+.create-game-btn{
+    max-width: 32%;
+   // background-color: #A62436;
+    color: white;
+    border: none;
+    padding: 3px;
+    height: 29px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 53%;
+    margin-bottom: 1%;
+    width: 22%;
+}
+
+.refresh-interval-div{
+    text-align: right;
+    margin-bottom: 0;
+    margin-right: 8%;
+    margin-top: 2%;
+    label{
+        margin-right: 1%;
+    }
+}
+.react-datepicker__input-container{
+   // width: 50% !important;
+   width: 65px !important;
+    margin-right: 9px !important;
+    height: 20px !important;
+    margin-left: 3% !important;
+}
+.note-p{
+    text-align: center;
+    font-size: 14px;
+    width: 50%;
+    margin-left: 50%;
+    font-style: italic;
+}

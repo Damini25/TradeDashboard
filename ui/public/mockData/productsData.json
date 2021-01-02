@@ -1,0 +1,16 @@
+{
+    "success": "true",
+    "error": null,
+    "data": [
+        {
+            "productId": 1,
+            "productCode": "NCG",
+            "productName": "Natural-Gas-Month-Futures"
+        },
+        {
+            "productId": 2,
+            "productCode": "GASPOOL",
+            "productName": "Natural-Gas-Year-Futures"
+        }
+    ]
+} 

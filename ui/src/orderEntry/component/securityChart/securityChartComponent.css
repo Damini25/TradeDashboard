@@ -1,0 +1,23 @@
+.parent-div .security-chart-div{
+    border:1px solid black;
+    min-width: 40%;
+}
+.security-chart-div h3{
+    background-color: #BCD6EE;
+    font-weight: 500;
+    margin: 0;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.security-chart-div canvas{
+    padding-top: 6px;
+}
+.prod-name-label{
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 1%;
+}
+.prod-name-label label{
+font-weight: 500;
+}

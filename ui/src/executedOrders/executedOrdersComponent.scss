@@ -1,0 +1,59 @@
+.parent-div .exec-orderlist-div {
+  border: 1px solid #eee;
+  // width: 60%;
+  min-width: 30%;
+  // margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  .table-div {
+    height: 85%;
+  }
+  table {
+    border: 1px solid #eee;
+    border-spacing: 0;
+    // margin: 2%;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    overflow: auto;
+    thead {
+      tr {
+        background-color: aliceblue;
+        th {
+          width: 23%;
+        }
+      }
+    }
+    tbody {
+      td {
+        text-align: center;
+        width: 23%;
+      }
+    }
+    tr {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  .tab-div {
+    background-color: #bcd6ee;
+    font-weight: 500;
+    margin: 0;
+    height:10%;
+   // border-bottom: 2px solid #bab7b6;
+    display: flex;
+    justify-content: center;
+    label {
+      min-width: 50%;
+      text-align: center;
+      height:100%;
+      margin: 0;
+      cursor: pointer;
+    }
+    .lbl-active {
+      background-color: #3498db;
+      color: aliceblue;
+      font-weight: 500;
+    }
+  }
+}

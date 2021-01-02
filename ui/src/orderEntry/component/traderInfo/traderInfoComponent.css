@@ -1,0 +1,29 @@
+.parent-div .trader-info-div{
+    border:1px solid black;
+    min-width: 30%;
+}
+
+.trader-info-div h3{
+    background-color: #BCD6EE;
+    font-weight: 500;
+    margin: 0;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.trader-info-div .sub-div{
+    margin: 10% 5% 0 10%;
+}
+
+.trader-info-div .sub-div span:first-of-type{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.trader-info-div .sub-div div{
+    display: flex;
+}
+
+.trader-info-div .sub-div div label{
+    min-width: 25%;
+    font-weight: 500;
+    max-width: 20%;
+}

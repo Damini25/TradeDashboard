@@ -1,0 +1,67 @@
+.parent-div .trader-div{
+    border: 1px solid #eee;
+    min-width: 30%;
+    position: relative;
+}
+
+.trader-div h3{
+   // background-color: #BCD6EE;
+    font-weight: 500;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    height: 9%;
+}
+
+.trader-div .sub-div{
+    display: flex;
+     height: 81%; 
+    width: 100%;
+    position: absolute;
+}
+
+.trader-div .sub-div div{
+    width: 50%;
+    border: 1px solid #eee;
+}
+
+.trader-div .sub-div h3{
+  background-color: white;
+  height: 12%;
+}
+.trader-div .product-drop{
+    height: 10%;
+}
+.trader-div .product-drop select{
+    width:100%;
+    height: 100%;
+    border-color: #eee;
+}
+.trader-div .sub-div table{
+    width: 100%;
+    border-spacing: 0;
+    height: 88%;
+    display: flex;
+    overflow: auto; 
+    flex-direction: column
+}
+
+.trader-div .sub-div table thead {
+    background-color: aliceblue;
+    margin: 0;
+}
+.trader-div .sub-div table thead th{
+    width: 50%;
+}
+.trader-div .sub-div table tr {
+  display: flex;
+  flex-direction: row;
+}
+
+.trader-div .sub-div table tbody td{
+    width: 50%;
+    text-align: center;
+}
+.trader-div .sub-div table tbody .backgroundBlue{
+    background-color:#bcd6ee;
+}

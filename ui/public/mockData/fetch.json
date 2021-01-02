@@ -1,0 +1,28 @@
+{
+    "success": "true",
+    "error": null,
+    "data": {
+        "allBidOrders": [],
+        "allAskOrders": [
+            {
+                "orderId": 1,
+                "origOrderId": 0,
+                "gameId": 106958,
+                "traderId": 999,
+                "productId": 1,
+                "unfulfilledQuantity": 5.0,
+                "totalQty": 5.0,
+                "bidOffer": "Ask",
+                "currencyId": null,
+                "price": 22.152,
+                "orderTypeId": 2,
+                "orderTime": "2019-09-23T10:25:59.251+0000",
+                "orderStatusId": 1
+            }
+        ],
+        "latestNews": [
+            "An increase in wind energy and a record low PV tariff have reduced electricity prices."
+        ],
+        "playbackFlag": true
+    }
+}

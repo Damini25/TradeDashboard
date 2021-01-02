@@ -1,0 +1,15 @@
+.parent-div .pl-chart-div{
+    border:1px solid black;
+    min-width: 40%;
+}
+.pl-chart-div h3{
+    background-color: #BCD6EE;
+    font-weight: 500;
+    margin: 0;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.pl-chart-div canvas{
+background-color: black;
+padding-top: 6px;
+}

@@ -1,0 +1,30 @@
+.parent-div .news-feed-div{
+    /* border:1px solid black; */
+    min-width: 30%;
+}
+.news-feed-div h3{
+    background-color: #BCD6EE;
+    font-weight: 500;
+    margin: 0;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.news-feed-div div{
+    display: flex;
+    flex-direction: column;
+}
+
+.news-feed-div li{
+    font-size:14px;
+    margin: 0 0 1% 0;
+    color: #0fc7f1bf;;
+    text-decoration: underline;
+}
+.news-feed-div ul,.news-feed-div a{
+    color: #0563C1;
+    text-align:left;
+    margin-bottom: 2%;
+}
+.tempColor{
+    color:#000000d9 !important;
+}

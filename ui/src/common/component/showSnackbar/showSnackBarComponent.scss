@@ -1,0 +1,19 @@
+.MuiSnackbar-anchorOriginTopCenter{
+   top:44px !important;
+   max-height: 50px !important;
+}
+
+// .MuiSnackbarContent-message{
+//     color:red !important;
+// }
+.MuiSnackbarContent-action{
+    padding-left: 0 !important;
+}
+
+.MuiSnackbarContent-root{
+    min-width: 100% !important;
+    max-height: 45px !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}

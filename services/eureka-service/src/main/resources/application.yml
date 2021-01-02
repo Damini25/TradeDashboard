@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: eureka-service
+
+server:
+  port: 8300
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+  
+zuul:
+  #Service will be mapped under the /trading URI
+  prefix: /trading
+  routes:
+#    ordergenerator-service:
+#      path: /ordergenerator-service/**
+#      url: http://localhost:8301
+    ordermgmt-service:
+      path: /ordermgmt-service/**
+      url: http://localhost:8302
+    gamemgmt-service:
+      path: /gamemgmt-service/**
+      url: http://localhost:8301
+  host:    socket-timeout-millis: 300000
